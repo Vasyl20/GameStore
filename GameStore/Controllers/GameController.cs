@@ -26,6 +26,7 @@ namespace GameStore.Controllers
                 Id = t.Id,
                 NameGames = t.NameGames,
                 GameIcon = t.GameIcon,
+                Price = t.Price,
                 BriefDescription = t.BriefDescription,
                 FullDescription = t.FullDescription,
                 Category = t.Category,
@@ -86,6 +87,7 @@ namespace GameStore.Controllers
             {
                 NameGames = model.NameGames,
                 GameIcon = model.GameIcon,
+                Price = model.Price,
                 BriefDescription = model.BriefDescription,
                 FullDescription = model.FullDescription,
                 Category = model.Category,

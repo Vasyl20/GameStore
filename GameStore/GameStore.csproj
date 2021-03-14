@@ -170,6 +170,7 @@
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\AdminGamesController.cs" />
     <Compile Include="Areas\Admin\Controllers\AdminPanelController.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminUserController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BasketController.cs" />
     <Compile Include="Controllers\GameController.cs" />
@@ -182,9 +183,9 @@
     </Compile>
     <Compile Include="Helper\Constants.cs" />
     <Compile Include="Helper\SeederDatabase.cs" />
-    <Compile Include="Migrations\202103091811398_GameBD.cs" />
-    <Compile Include="Migrations\202103091811398_GameBD.Designer.cs">
-      <DependentUpon>202103091811398_GameBD.cs</DependentUpon>
+    <Compile Include="Migrations\202103141827009_BDGames.cs" />
+    <Compile Include="Migrations\202103141827009_BDGames.Designer.cs">
+      <DependentUpon>202103141827009_BDGames.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -269,11 +270,6 @@
     <Content Include="Views\Basket\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202103091811398_GameBD.resx">
-      <DependentUpon>202103091811398_GameBD.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -288,6 +284,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Views\AdminUser\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202103141827009_BDGames.resx">
+      <DependentUpon>202103141827009_BDGames.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

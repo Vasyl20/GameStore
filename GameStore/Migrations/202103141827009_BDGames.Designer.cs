@@ -7,13 +7,13 @@ namespace GameStore.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class GameBD : IMigrationMetadata
+    public sealed partial class BDGames : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(GameBD));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(BDGames));
         
         string IMigrationMetadata.Id
         {
-            get { return "202103091811398_GameBD"; }
+            get { return "202103141827009_BDGames"; }
         }
         
         string IMigrationMetadata.Source

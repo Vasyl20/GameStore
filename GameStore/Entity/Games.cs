@@ -17,6 +17,8 @@ namespace GameStore.Entity
         [Required]
         public string GameIcon { get; set; }
         [Required]
+        public string Price { get; set; }
+        [Required]
         public string BriefDescription { get; set; }
         [Required]
         public string FullDescription { get; set; }

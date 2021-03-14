@@ -26,6 +26,7 @@ namespace GameStore.Areas.Admin.Controllers
                 Id = t.Id,
                 NameGames = t.NameGames,
                 GameIcon = t.GameIcon,
+                Price = t.Price,
                 BriefDescription = t.BriefDescription,
                 FullDescription = t.FullDescription,
                 Category = t.Category,
@@ -86,6 +87,7 @@ namespace GameStore.Areas.Admin.Controllers
             {
                 NameGames = model.NameGames,
                 GameIcon = model.GameIcon,
+                Price = model.Price,
                 BriefDescription = model.BriefDescription,
                 FullDescription = model.FullDescription,
                 Category = model.Category,
@@ -138,6 +140,7 @@ namespace GameStore.Areas.Admin.Controllers
                 Id = s.Id,
                 NameGames = s.NameGames,
                 GameIcon = s.GameIcon,
+                Price = s.Price,
                 BriefDescription = s.BriefDescription,
                 FullDescription = s.FullDescription,
                 Category = s.Category,
@@ -197,6 +200,7 @@ namespace GameStore.Areas.Admin.Controllers
             {
                 editGame.NameGames = model.NameGames;
                 editGame.GameIcon = model.GameIcon;
+                editGame.Price = model.Price;
                 editGame.BriefDescription = model.BriefDescription;
                 editGame.FullDescription = model.FullDescription;
                 editGame.Category = model.Category;

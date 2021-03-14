@@ -15,6 +15,7 @@ namespace GameStore.Models
         public int Id { get; set; }
         public string NameGames { get; set; }
         public string GameIcon { get; set; }
+        public string Price { get; set; }
         public string BriefDescription { get; set; }
         public string FullDescription { get; set; }
         public string Category { get; set; }
@@ -36,6 +37,11 @@ namespace GameStore.Models
         [Required(ErrorMessage = "This field is required")]
         [DisplayName("GameIcon: ")]
         public string GameIcon { get; set; }
+
+        [Required(ErrorMessage = "This field is required")]
+        [StringLength(maximumLength: 50, ErrorMessage = "The maximum length of this is 50 sims")]
+        [DisplayName("Price: ")]
+        public string Price { get; set; }
 
         [Required(ErrorMessage = "This field is required")]
         [StringLength(maximumLength: 50, ErrorMessage = "The maximum length of this is 50 sims")]
