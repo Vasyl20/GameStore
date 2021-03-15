@@ -25,6 +25,10 @@ namespace GameStore
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/Content/template").Include(
+                     "~/Content/template/hom.css"
+                    ));
         }
     }
 }

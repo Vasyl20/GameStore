@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background-color: rgb(40, 41, 41);
+}
+
+html{
+    background-color: rgb(40, 41, 41);
+}
+.babl{
+    background-color: rgb(40, 41, 41);
+    width: 100%;
+   height: 1000px;
+}
+
+.hom-cl{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+.cartka{
+    height: 270px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom:  60px;
+
+}
+
+img{
+    width: 60px;
+    height: 70%;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+    color: grey;
+}
+
+.p-cent{
+    margin-top: -10px;
+    color: grey;
+}
+
+.bt-infa{
+    border-color: rgb(177, 175, 175);
+    background-color: rgb(40, 41, 41);
+    color: white;
+    border-radius: 20px ;
+    font-size: 12px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 25px;
+    outline: none;
+}
+
+
+
+@media only screen and (max-width: 330px ){
+   
+   
+
+} 
